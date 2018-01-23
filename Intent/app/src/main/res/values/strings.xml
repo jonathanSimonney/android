@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Intent</string>
+    <string name="picture_button">picture</string>
+    <string name="web_page_button">web page</string>
+    <string name="email_button">email</string>
+    <string name="footer_desc">Your own picture</string>
+</resources>

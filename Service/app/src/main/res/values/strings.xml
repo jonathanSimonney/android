@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Service</string>
+    <string name="next">Next</string>
+    <string name="firstActivityNumber">0</string>
+</resources>

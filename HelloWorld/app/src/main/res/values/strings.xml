@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HelloWorld</string>
+    <string name="button_text">Next!</string>
+    <string name="default_text">Hello World!</string>
+    <string name="activity_name">5</string>
+    <string name="activity_name_4">4</string>
+    <string name="activity_name_3">3</string>
+    <string name="activity_name_2">2</string>
+    <string name="activity_name_1">1</string>
+</resources>

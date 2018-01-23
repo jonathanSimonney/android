@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="hello.supinternet.com.animations.MainActivity">
+
+    <TextView
+        android:id="@+id/animatedElem"
+        android:text="Hello World!"
+        android:layout_height="25dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        tools:context="hello.supinternet.com.animations.MainActivity">
+
+        <Button
+            android:id="@+id/pictureButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/picture_button"
+            android:layout_weight="1"
+            android:onClick="click"/>
+
+        <Button
+            android:id="@+id/openPageButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/web_page_button"
+            android:layout_weight="1"
+            android:onClick="click"/>
+
+        <Button
+            android:id="@+id/emailButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/email_button"
+            android:layout_weight="1"
+            android:onClick="click"/>
+
+    </LinearLayout>
+    
+    <ImageView
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:contentDescription="@string/footer_desc"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

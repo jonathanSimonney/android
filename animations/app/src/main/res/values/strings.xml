@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">animations</string>
+    <string name="scale_button">scale and picture</string>
+    <string name="rotate_button">rotate and web page</string>
+    <string name="translate_button">translate and email</string>
+    <string name="footer_desc">logo of ocsigen</string>
+</resources>
