@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">RecyclerView</string>
+    <string-array name="string_list">
+        <item>toto</item>
+        <item>titi</item>
+        <item>tata</item>
+        <item>lorem</item>
+        <item>ipsum</item>
+        <item>is</item>
+        <item>great</item>
+        <item>i</item>
+        <item>must</item>
+        <item>put</item>
+        <item>a</item>
+        <item>lot</item>
+        <item>of</item>
+        <item>items</item>
+        <item>in</item>
+        <item>this</item>
+        <item>array</item>
+    </string-array>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="button_text">Get me these repo!</string>
+</resources>
